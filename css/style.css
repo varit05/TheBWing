@@ -30,14 +30,15 @@ h5 {font-family: Century Gothic, Arial; font-weight:lighter; font-size:85px;colo
 p {line-height:24px; font-size:13px;margin:0 0 10px 0;}
 
 body {background:#FFFFFF;font:12px "Century Gothic", arial, Helvetica, sans-serif;color:#444;}
-.container {margin: 0 auto;padding:10px;background:url(../images/bg.jpg) repeat;}
+.container {margin: 0 auto;padding:10px;background:#c7c8c7;}
 .site-logo {width:50px;}
 .brand {text-decoration:none;}
 .site-title{font-size: 40px;font-weight: bold;line-height: 48px;color: #004466}
 .brand:hover{color: #0088CC;}
 .site-description{color: #004466}
 .home-content {height:auto !important}
-.menu-style ul li a {text-align:center} 
+.menu-style ul li a {text-align:center}
+.nav {text-align:center;}
 ul.nav li {display:inline; font-size:15px; font-weight: normal; font-family:"Century Gothic", arial, Helvetica;}
 ul.nav a {color:#666;text-decoration:none;}
 ul.nav .active {color:#FF9900;}
@@ -45,8 +46,9 @@ ul.nav .active {color:#FF9900;}
 #containerAbout .rightAbout p{ font-weight:bolder;text-align:center}
 .about-description p{font-size:19px;text-align:justify;}
 .leftAbout {float:left;height:auto}
-#contact {height:575px}
+#contact {height:625px}
 #contact .email-id {letter-spacing: 5px;line-height: 1.6 !important;font-size:24px;}
 #contact p {text-align: center}
 .footer { font-family:Century Gothic, arial, Helvetica; font-weight:normal; color: #999999; text-align: center; font-size:40px;}
 .footer p {text-align:center;font-weight:bolder} 
+.fixed{position:fixed;top:0;width:100%}
